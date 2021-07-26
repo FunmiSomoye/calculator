@@ -35,27 +35,13 @@ Sample Code
 ``from actions import Calculator``
 
 cal = Calculator()
-#### Addition
 
-``cal.add([10])``
-
-10.0
-
-#### Subtraction
-subtract
-
-``cal.subtract([2])``
-
-8.0
-
-because the memory was not reset, 2 was subtracted from previous value 10
-
-Division
-For division, zero division returns None and description
-
-``cal.divide(2)``
-
-4.0
+There are 4 functions in this package:
+- add(): takes a list of numbers, whether integers or floats
+- subtract(): takes a list of numbers, whether integers or floats
+- divide(): takes numbers
+- multiply(): takes numbers
+- root()
 
 
 ### Development
