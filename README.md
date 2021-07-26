@@ -55,7 +55,7 @@ For division, zero division returns None and description
 
 ``cal.divide(2)``
 
-4
+4.0
 
 
 ### Development
